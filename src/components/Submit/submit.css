@@ -1,0 +1,26 @@
+.body {
+    color: #EA8F2D;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-top: 200px;
+    font-family: Roboto;
+}
+
+p {
+    color: white;
+}
+
+.buttons {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    width: 300px;
+}

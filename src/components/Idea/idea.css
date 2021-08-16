@@ -1,0 +1,52 @@
+.infoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #097FBA;
+    font-family: Roboto;
+    margin-top: 125px;
+    max-height: 40%;
+}
+
+p{
+    color:white;
+    font-size: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    font-family: Roboto;
+    padding: 35px;
+}
+
+.columnOne, .columnTwo, .columnThree {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 25%;
+    margin: 20px;
+    color:black;
+}
+
+.consultancy, .training, .emergency {
+    background-color: rgba(0, 85, 157, 0.4);
+    border-radius: 20%;
+    max-width: 80%;
+    align-items: center;
+    padding: 10px;
+    color:white;
+}
+
+
+
+
+.consultancy_icon, .training_icon, .emergency_icon {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 20px;
+}
